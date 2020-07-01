@@ -1,0 +1,4 @@
+spring:
+  data:
+    mongodb:
+      uri: mongodb://momo:123456@192.168.30.128,192.168.30.129,192.168.30.130/momo?authSource=admin&connect=replicaSet&readPreference=secondaryPreferred&maxPoolSize=500&minPoolSize=10
